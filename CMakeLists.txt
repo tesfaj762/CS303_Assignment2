@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_EXPORT_COMPILE_COMMANDS)
 
 
-set(SOURCES main.cpp
+set(SOURCES Main.cpp
   SinglyList.h
   SinglyList.tpp
   Stack.h
