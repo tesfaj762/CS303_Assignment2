@@ -1,0 +1,10 @@
+/.vscode/
+/build/
+/.idea
+*.o
+*.exe
+*.out
+*.obj
+*.dll
+*.so
+*.dylib
