@@ -1,7 +1,8 @@
-cmake_minimum_required(VERSION 3.10.0)
-project(CS303_Assignment2 VERSION 0.1.0 LANGUAGES C CXX)
+cmake_minimum_required(VERSION 3.29.6)
+project(CS303_Assignment2)
 
 set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_EXPORT_COMPILE_COMMANDS)
 
 
 set(SOURCES main.cpp

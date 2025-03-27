@@ -49,12 +49,24 @@ cmake_ninja_workdir = /Users/jt/Desktop/COMP-SCI_303/Assignment2/build/
 
 build cmake_object_order_depends_target_main: phony || .
 
-build CMakeFiles/main.dir/main.cpp.o: CXX_COMPILER__main_unscanned_Debug /Users/jt/Desktop/COMP-SCI_303/Assignment2/main.cpp || cmake_object_order_depends_target_main
+build CMakeFiles/main.dir/main.cpp.o.ddi: CXX_SCAN__main_Debug /Users/jt/Desktop/COMP-SCI_303/Assignment2/main.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles/main.dir/main.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/main.dir/main.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  INCLUDES = -I/Users/jt/Desktop/COMP-SCI_303/Assignment2
+  OBJ_FILE = CMakeFiles/main.dir/main.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/main.dir/main.cpp.o.ddi.i
+
+build CMakeFiles/main.dir/main.cpp.o: CXX_COMPILER__main_scanned_Debug /Users/jt/Desktop/COMP-SCI_303/Assignment2/main.cpp | CMakeFiles/main.dir/main.cpp.o.modmap || cmake_object_order_depends_target_main CMakeFiles/main.dir/CXX.dd
   DEP_FILE = CMakeFiles/main.dir/main.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/main.dir/main.cpp.o.modmap
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   INCLUDES = -I/Users/jt/Desktop/COMP-SCI_303/Assignment2
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir
+  dyndep = CMakeFiles/main.dir/CXX.dd
+
+build CMakeFiles/main.dir/CXX.dd | /Users/jt/Desktop/COMP-SCI_303/Assignment2/build/CMakeFiles/main.dir/CXXModules.json CMakeFiles/main.dir/main.cpp.o.modmap: CXX_DYNDEP__main_Debug CMakeFiles/main.dir/main.cpp.o.ddi | /Users/jt/Desktop/COMP-SCI_303/Assignment2/build/CMakeFiles/main.dir/CXXDependInfo.json
 
 
 # =============================================================================
